@@ -13,6 +13,8 @@ This game engine comes in two forms. The first being "FLOAT", which is a game th
 
 Examples of graphics in the engine:
 
+<pre>
+
  O
 /|\
 / \
@@ -37,3 +39,5 @@ Example 2: A canoe
           `""""'                                         `""""'
          
 Example 3: A sports car
+
+</pre>
