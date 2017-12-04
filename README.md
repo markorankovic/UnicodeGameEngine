@@ -9,7 +9,7 @@ The unicode game engine is like any other 2D game engine, only the graphics in t
 This game engine comes in two forms. The first being "FLOAT", which is a game that I am working towards by developing the game engine itself to suit the game's needs. FLOAT has a few test scenes, but the one by default in use features a physics simulation of aliens being attracted toward the spaceship, at the same time as aliens are repelling each other to prevent them from being too close to on another. The second being "SDU Paint", which is a painting program for painting unicode characters over a canvas for creating sprites. Both instances should work simply by importing into a Java Runtime Environment.
 
 
-SDU Paint controls:
+<br> SDU Paint controls: </br>
 
 <br> Arrow keys - To move the 2D camera around </br>
 <br> Character keys - To select which character to draw with </br>
