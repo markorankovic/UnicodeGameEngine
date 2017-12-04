@@ -11,7 +11,7 @@ This game engine comes in two forms. The first being "FLOAT", which is a game th
 
 SDU Paint controls:
 
-Arrow keys - To move the 2D camera around
+<br> Arrow keys - To move the 2D camera around </br>
 Character keys - To select which character to draw with
 Space - To erase the drawn characters
 
