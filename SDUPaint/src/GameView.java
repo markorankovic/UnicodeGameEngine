@@ -39,7 +39,7 @@ public class GameView extends JTextArea implements KeyListener, MouseListener, M
 		addMouseMotionListener(this);
 		setEditable(false);
 		setHighlighter(null);
-		fontSize = 10;
+		fontSize = 20;
 		System.out.println(fontSize);
 		Font font = new Font("Courier", Font.PLAIN, fontSize);
 	    Rectangle rec = font.getStringBounds(" ",
@@ -133,8 +133,8 @@ public class GameView extends JTextArea implements KeyListener, MouseListener, M
 		    this.fontWidth = (int)(rec.getWidth());
 		    this.fontHeight = (int)(rec.getHeight());
 
-			this.rows = (1080/this.fontHeight);
-			this.cols = (1920/this.fontWidth);
+			this.rows = (720/this.fontHeight);
+			this.cols = (1280/this.fontWidth);
 			super.setColumns(this.cols);
 			super.setRows(this.rows);
 		}
@@ -150,8 +150,8 @@ public class GameView extends JTextArea implements KeyListener, MouseListener, M
 		    this.fontWidth = (int)(rec.getWidth());
 		    this.fontHeight = (int)(rec.getHeight());
 
-			this.rows = (1080/this.fontHeight);
-			this.cols = (1920/this.fontWidth);
+			this.rows = (720/this.fontHeight);
+			this.cols = (1280/this.fontWidth);
 			super.setColumns(this.cols);
 			super.setRows(this.rows);
 		}

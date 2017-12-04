@@ -15,7 +15,7 @@ public class Window extends JFrame implements ActionListener {
 		setSize(width, height);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		add(view);
-		setUndecorated(true);
+		//setUndecorated(true);
 		setVisible(true);
 		setResizable(false);
 		this.setLocationRelativeTo(null); 
@@ -23,7 +23,7 @@ public class Window extends JFrame implements ActionListener {
 	}
 	
 	public static void main(String[] args) {
-		new Window(1920, 1080);
+		new Window(1280, 720);
 	}
 	
 	public static void exit() {
