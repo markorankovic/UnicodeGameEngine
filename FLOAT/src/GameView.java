@@ -29,7 +29,7 @@ public class GameView extends JTextArea implements KeyListener {
 		addKeyListener(this);
 		setEditable(false);
 		setHighlighter(null);
-		fontSize = ((rows*cols)*8/(1920*1080));
+		fontSize = ((rows*cols)*8/(1280*720));
 		Font font = new Font("Courier", Font.PLAIN, fontSize);
 	    Rectangle rec = font.getStringBounds(" ",
 	                        new FontRenderContext(
