@@ -6,7 +6,14 @@ Written by Marko Rankovic
 The unicode game engine is like any other 2D game engine, only the graphics in this game engine is built up of unicode characters instead of directly being represented by pixels. For instance, in a normal game engine you would see a man with most if not all the physical features of a man. In this game engine on the other hand, a man would be commonly represented in a much more simplistic fashion (See Example 1 below) as text characters are limited, and also bigger as they usually are represented by more than one pixel.
 
 
-This game engine comes in two forms. The first being "FLOAT", which is a game that I am working towards by developing the game engine itself to suit the game's needs. The second being "SDU Paint", which is a painting program for painting unicode characters over a canvas for creating sprites. Both instances should work simply by importing into a Java Runtime Environment.
+This game engine comes in two forms. The first being "FLOAT", which is a game that I am working towards by developing the game engine itself to suit the game's needs. FLOAT has a few test scenes, but the one by default in use features a physics simulation of aliens being attracted toward the spaceship, at the same time as aliens are repelling each other to prevent them from being too close to on another. The second being "SDU Paint", which is a painting program for painting unicode characters over a canvas for creating sprites. Both instances should work simply by importing into a Java Runtime Environment.
+
+
+SDU Paint controls:
+
+Arrow keys - To move the 2D camera around
+Character keys - To select which character to draw with
+Space - To erase the drawn characters
 
 
 
